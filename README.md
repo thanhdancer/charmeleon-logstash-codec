@@ -6,5 +6,8 @@ CyWall helps read logs from file, filter some columns neccessary for analytics, 
 INSTALL PLUGIN BEFORE USE CyWall.config:
   1. logstash-input-file
   2. logstash-output-mongodb
+  
+  
 USE:
+
 command (root): bin/logstash -f CyWall.config
